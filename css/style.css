@@ -1,0 +1,242 @@
+﻿body {
+    margin:0px;
+    padding:0px;
+    font-size:14px;
+    font-family:'Microsoft YaHei';
+}
+ul {
+    margin:0px;
+    padding:0px;
+    overflow:hidden; 
+}
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+#mainContent {
+    width:100%;
+    height:100%;
+    overflow:hidden;
+    position:relative;
+}
+#animateimg {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:100%;
+}
+#animateimg > div {
+    width:100%;
+    background-size:100% 100%;
+}
+#animateimg > div.bg1 {
+    background-image:url(../images/wx_bg1.jpg);
+}
+#animateimg > div.bg2 {
+    background-image:url(../images/wx_bg1.jpg);
+}
+#animateimg > div.bg3 {
+    background-image:url(../images/wx_bg2.jpg);
+}
+#animateimg > div.bg4 {
+    background-image:url(../images/wx_bg3.jpg);
+}
+#arrowup {
+    width:100%;
+    height:50px;
+    position:absolute;
+    left:0px;
+    top:-20px;
+    text-align:center;
+}
+#arrowdown {
+    width:100%;
+    height:50px;
+    position:absolute;
+    left:0px;
+    bottom:-20px;
+    text-align:center;
+}
+#arrowup > img, #arrowdown > img {
+    width:50px;
+    height:50px;
+    cursor:pointer;
+}
+.bg1_content {
+    width:100%;
+    padding:40px 12% 0px 12%;
+}
+.redtitle {
+    font-size:30px;
+    color:#de1d26;
+    margin-bottom:20px;
+}
+.bg1_content > p {
+    font-size:18px;
+    line-height:1.7;
+    color:#fff;
+}
+.bg1_content .strong1 {
+    font-size:22px;
+    color:#de1d26;
+}
+.bg1_content .strong2 {
+    font-size:26px;
+    color:#de1d26;
+}
+.bg2_content {
+    width:100%;
+    padding:50px 0px 0px;
+}
+.bg2div {
+    width:100%;
+    overflow:hidden;
+}
+.bg2div > div {
+    font-size:32px;
+    color:#fff;
+    padding:10px 20px;
+}
+.bg2div > div.redbg {
+    float:left;
+    background-color:#de1d26;
+}
+.bg2div > div.graybg {
+    float:right;
+    background-color:#404040;
+}
+.bg3_content {
+    width:100%;
+    padding:50px 12% 0px 12%;
+}
+.bg3div > div {
+    height:60px;
+    line-height:60px;
+    text-align:center;
+}
+.bg3div > div.redbg {
+    background-color:#de1d26;
+}
+.bg3div > div.redbg > img {
+    width:150px;
+    vertical-align:middle;
+}
+.bg3div > div.graybg {
+    background-color:#404040;
+    font-size:18px;
+    color:#fff;
+}
+.bg4_content {
+    width:100%;
+    padding:30px 0px;
+}
+.bg4div {
+    width:100%;
+    overflow:hidden;
+    margin-bottom:10px;
+}
+.bg4div > div {
+    float:left;
+    width:50%;
+}
+.bg4div > div.img1 {
+    padding-right:28px;
+}
+.bg4div > div.img2 {
+    padding-left:28px;
+}
+.bg4div > div.img3 {
+    padding-right:18px;
+}
+.bg4div > div.img4 {
+    padding-left:18px;
+}
+.tu_img >div> img {
+    max-width:211px;
+    min-width:60px;
+    width:100%;
+}
+.tu_img {
+    padding-bottom:27px;
+    position:relative;
+}
+.img1 > .tu_img {
+    text-align:right;
+}
+.img3 > .tu_img {
+    text-align:right;
+}
+.tu_imga {
+    margin-left:35px;
+}
+.tu_imgb {
+    margin-right:35px;
+}
+.tu_imgc {
+    margin-left:45px;
+}
+.tu_imgd {
+    margin-right:45px;
+}
+.bg4div .title {
+    position:absolute;
+    bottom:10px;
+    width:100%;
+    font-size:14px;
+    color:#fff;
+    line-height:28px;
+    height:28px;
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    -ms-text-overflow:ellipsis;
+    z-index:1;
+}
+.img1 >div> .title {
+    text-align:right;
+    padding-right:10px;
+    right:10px;
+    background-image:url(../images/title_bg.png);
+    background-position:0px 0px;
+    background-repeat:repeat-x;
+}
+.img2 >div> .title {
+    padding-left:10px;
+    left:10px;
+    background-image:url(../images/title_bg.png);
+    background-position:0px -51px;
+    background-repeat:repeat-x;
+}
+.img3 >div> .title {
+    text-align:right;
+    padding-right:10px;
+    right:10px;
+    background-image:url(../images/title_bg.png);
+    background-position:0px -102px;
+    background-repeat:repeat-x;
+}
+.img4 >div> .title {
+    padding-left:10px;
+    left:10px;
+    background-image:url(../images/title_bg.png);
+    background-position:0px -153px;
+    background-repeat:repeat-x;
+}
+.bg4_botitle {
+    width:100%;
+    height:40px;
+    line-height:40px;
+    color:#fff;
+    font-size:18px;
+    text-align:center;
+    background-image:url(../images/title_bg1.png);
+    background-repeat:repeat-x;
+    background-size:100% 100%;
+}
